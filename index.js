@@ -1,5 +1,5 @@
 
-// 
+// function scope 
 function user1(){
     let user = "sunnat"
     console.log(user)
@@ -16,3 +16,6 @@ function user3(){
 }
 
 user3()
+
+
+console.log(user)
