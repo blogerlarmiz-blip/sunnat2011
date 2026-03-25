@@ -1,21 +1,34 @@
 
-// function scope 
-function user1(){
-    let user = "sunnat"
-    console.log(user)
+// // function scope 
+// function user1(){
+//     let user = "sunnat"
+//     console.log(user)
+// }
+
+// user1()
+// // globall
+
+
+// let user2 = "sunnat"
+
+// function user3(){
+//     console.log(user2)
+// }
+
+// user3()
+
+
+// console.log(user)
+
+
+
+
+function salomlar(name){
+    console.log("salom," + name + "")
 }
 
-user1()
-// globall
-
-
-let user2 = "sunnat"
-
-function user3(){
-    console.log(user2)
+function saloml(calbek){
+    const name = "sunnat"
+    calbek(name)
 }
-
-user3()
-
-
-console.log(user)
+saloml(salomlar)
